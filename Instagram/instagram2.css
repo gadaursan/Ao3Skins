@@ -1,0 +1,107 @@
+body {
+  /* background: rgb(34, 34, 34);
+  color: white; */
+}
+
+.x1F49C:before {
+  content: "\1F49C";
+}
+
+.hide {
+  display: none;
+}
+
+.inst {
+  max-width: 300px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: table;
+  margin: auto;
+}
+
+.instBody {
+  border-style: solid;
+  border-width: 0.1em 0 0.1em 0;
+  border-color: #dddddd;
+  float: left;
+  min-width: 100%;
+  position:relative;
+  padding: 1em 0;
+  margin-left: -1em;
+}
+
+.instUserContainer {
+  margin-bottom: 0.5em;
+  position: relative;
+  width: 100%;
+  background: gray;
+  display: inline-block;
+}
+
+/* Images */
+.instImage{
+  width: 100%;
+  height: auto;
+  border-radius: .3em;
+}
+
+.instAvatar {
+  width: 30px;
+  height: auto;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.instIcon {
+  height: 20px;
+  width: auto;
+  margin: 0.3em 0.3em 0.1em 0em;
+}
+
+.instIconRight {
+  height: 20px;
+  width: auto;
+  float: right;
+  margin: 0.3em 0.3em 0.1em 0em;
+}
+
+.instHeart {
+  height: 10px;
+  width: auto;
+}
+
+/*Text*/
+
+.instUser {
+  font-size: 1em;
+  font-weight: bold;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.instText {
+  margin: .1em 0em .1em 0em;
+  padding: .1em 0em .1em 0em;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.instText span {
+  color: #0095F6;
+  opacity: 0.75;
+}
+
+.instComments {
+  display: inline-block;
+  width: 100%;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.instTimestamp {
+  display: inline-block;
+  width: 100%;
+  opacity: 0.6;
+  text-transform: uppercase;
+  font-size: 12px;
+}
